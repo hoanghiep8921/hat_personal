@@ -263,8 +263,10 @@ function Frame56({ onClick }: { onClick?: () => void }) {
 }
 
 function Frame68() {
+
+  const router = useRouter();
   const handleReadMore = () => {
-    window.open("/hatthere");
+    router.push("/hat-there");
   };
 
   return (
