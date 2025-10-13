@@ -10,7 +10,7 @@ export function AnimatedHeader() {
       </div>
       <div className="max-w-xl">
         <p className="font-light text-sm md:text-base lg:text-lg text-white/80 leading-relaxed text-center md:text-right">
-          A collection of journeys — from misty mountains to village classrooms — where each trip became more than
+          A collection of journeys - from misty mountains to village classrooms - where each trip became more than
           travel. These are the moments of exchange, growth, and memories I carry with me.
         </p>
       </div>

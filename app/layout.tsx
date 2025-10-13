@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={`${inter.className}  text-white`}>
+      <body suppressHydrationWarning={true} className={`${inter.className}  text-white`}>
         <StarsBackground className="min-h-screen">
           <div className="relative z-10">
             <Header />

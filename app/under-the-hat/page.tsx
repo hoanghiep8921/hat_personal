@@ -20,7 +20,7 @@ export default function UnderTheHatPage() {
                 <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
                   <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-white w-full text-center md:text-left">
                     <p className="leading-relaxed md:leading-[normal]">
-                      Peek under my HAT and you'll find the adventures I've joined — from school projects to real
+                      Peek under my HAT and you'll find the adventures I've joined - from school projects to real
                       community work. They might be small, but they tell big stories about what I care about.
                     </p>
                   </div>
@@ -35,9 +35,9 @@ export default function UnderTheHatPage() {
       {/* Frame70 */}
       <div className=" relative shrink-0 w-full ">
         <div className="flex flex-col items-end justify-center size-full">
-          <div id="her" className="box-border content-stretch flex flex-col gap-8 md:gap-[72px] items-end justify-center px-4 md:px-[160px] py-8 md:py-[70px] relative w-full bg-white">
+          <div id="her" className="box-border content-stretch flex flex-col gap-8 md:gap-[42px] items-end justify-center px-4 md:px-[160px] py-8 md:py-[70px] relative w-full bg-white">
             {/* Frame65 */}
-            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[72px] items-start justify-center md:justify-end relative shrink-0 w-full max-w-[960px] mx-auto">
+            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[42px] items-start justify-center md:justify-end relative shrink-0 w-full max-w-[960px] mx-auto">
               <div className="h-[300px] md:h-[470px] relative shrink-0 w-full md:w-[438px] rounded-lg md:rounded-none overflow-hidden order-2 md:order-1" data-name="IMG_0174 1">
                 <Image src="/IMG_0174.JPG" alt="her" width={438} height={470} className="w-full object-cover h-full" />
               </div>
@@ -80,8 +80,8 @@ export default function UnderTheHatPage() {
       {/* Frame62 */}
       <div className="box-border content-stretch flex flex-col items-center justify-center py-8 md:py-[72px] relative shrink-0 w-full">
         {/* Frame61 */}
-        <div className="w-full">
-          <div className="grid grid-cols-6">
+        <div className="w-full px-4">
+          <div className="grid grid-cols-6 gap-2">
             <div className="aspect-[3/4] relative w-full overflow-hidden">
               <Image src="/under-the-hat/IMG_0030.JPG" alt="Community work image 1" fill className="object-cover" />
             </div>
@@ -109,7 +109,7 @@ export default function UnderTheHatPage() {
         <div className="flex flex-col justify-center size-full max-w-6xl mx-auto px-4 md:px-0">
           <div className="box-border content-stretch flex flex-col gap-6 md:gap-10 items-center md:items-end justify-center py-0 relative w-full">
             {/* Frame73 */}
-            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[72px] items-center justify-center relative shrink-0 w-full">
+            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[42px] items-center justify-center relative shrink-0 w-full">
               <div className="h-[350px] md:h-[600px] relative shrink-0 w-full md:w-[800px] rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
                 <Image
                   src="/under-the-hat/529296921_122163890942461520_9050323691325181288_n.jpg"
@@ -125,7 +125,7 @@ export default function UnderTheHatPage() {
                 <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
                   <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
                     <p className="leading-relaxed md:leading-[normal] text-justify">
-                      A project born from Nam Định's crafts — blending tradition and modernity to honor artisans,
+                      A project born from Nam Định's crafts - blending tradition and modernity to honor artisans,
                       preserve heritage, and carve out a living culture for today
                     </p>
                   </div>
@@ -133,7 +133,7 @@ export default function UnderTheHatPage() {
               </div>
             </div>
             {/* Frame77 */}
-            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[72px] items-center justify-center relative shrink-0 w-full text-justify">
+            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[42px] items-center justify-center relative shrink-0 w-full text-justify">
               {/* Frame93 */}
               <div className="basis-0 content-stretch flex flex-col gap-6 md:gap-10 grow items-start justify-center min-h-px min-w-px relative shrink-0">
                 {/* Frame75 */}
@@ -147,7 +147,7 @@ export default function UnderTheHatPage() {
                 </div>
 
                 {/* Row 1 */}
-                <div className="flex flex-col md:flex-row gap-4 md:gap-[72px] items-start">
+                <div className="flex flex-col md:flex-row gap-4 md:gap-[42px] items-start">
                   <div className="flex-1 order-2 md:order-1">
                     <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative text-sm md:text-[18px] text-black">
                       <p className="leading-relaxed md:leading-[normal]">
@@ -168,7 +168,7 @@ export default function UnderTheHatPage() {
                 </div>
 
                 {/* Row 2 */}
-                <div className="flex flex-col md:flex-row gap-4 md:gap-[72px] items-start">
+                <div className="flex flex-col md:flex-row gap-4 md:gap-[42px] items-start">
                   <div className="flex-1">
                     <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative text-sm md:text-[18px] text-black">
                       <p className="leading-relaxed md:leading-[normal]">
@@ -202,7 +202,7 @@ export default function UnderTheHatPage() {
       </div>
       {/* End Frame79 */}
       {/* Frame63 */}
-      <div className="box-border content-stretch flex flex-col gap-8 md:gap-[72px] h-auto md:h-[560px] items-center justify-center px-4 md:px-0 py-8 md:py-[48px] relative shrink-0 w-full">
+      <div className="box-border content-stretch flex flex-col gap-8 md:gap-[42px] h-auto md:h-[560px] items-center justify-center px-4 md:px-0 py-8 md:py-[48px] relative shrink-0 w-full">
         {/* Frame80 */}
         <div className="h-auto md:h-[324px] relative shrink-0 w-full">
           <div className="size-full">
@@ -240,11 +240,11 @@ export default function UnderTheHatPage() {
       {/* Frame67 */}
       <div className="bg-white relative shrink-0 w-full text-justify">
         <div className="flex flex-col items-center justify-center size-full">
-          <div className="box-border content-stretch flex flex-col gap-12 md:gap-[96px] items-center justify-center py-12 md:py-[160px] px-4 md:px-0 relative w-full">
-            {/* Frame95 & Frame68 Refactored with Float Layout */}
-            <div id="research-covid" className="w-full max-w-[960px] mx-auto flow-root">
-              {/* Image Container (Floated) */}
-              <div className="w-full md:w-3/5 md:float-left md:mr-8 mb-4">
+          <div className="box-border content-stretch flex flex-col gap-12 md:gap-[48px] items-center justify-center py-12 md:py-[160px] px-4 md:px-0 relative w-full">
+            {/* Frame95 & Frame68 Refactored with Flex Layout */}
+            <div id="research-covid" className="w-full px-4 md:px-16 flex flex-col">
+              {/* Image Container */}
+              <div className="w-full">
                 <div className="relative aspect-[16/9] overflow-hidden rounded-lg group">
                   <Link
                     href={"https://archive.conscientiabeam.com/index.php/29/article/view/4183"}
@@ -260,72 +260,74 @@ export default function UnderTheHatPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                     <div className="absolute bottom-0 left-0 right-0 p-6">
-                      <h3 className="text-xl lg:text-2xl font-serif font-semibold text-white" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>
-                        COVID-19 and its effect on income of different social groups in Vietnam: A comparative analysis
+                      <h3 className="text-xl lg:text-2xl font-sans font-semibold text-white uppercase" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>
+                        COVID-19 AND ITS EFFECT ON INCOME OF DIFFERENT SOCIAL GROUPS IN VIETNAM: A COMPARATIVE ANALYSIS
                       </h3>
                     </div>
                   </Link>
                 </div>
               </div>
               
-              {/* Text Content */}
-              <div className="flex flex-col gap-4 text-sm md:text-base text-black text-justify">
-                <p>
-                  When COVID-19 hit, I kept hearing people around me talk about how "the poor suffered the most."
-                  It made sense at first, but something in me wanted to test whether this was actually true for
-                  Vietnam. That small curiosity eventually became my very first academic research project, later
-                  published in The Economics and Finance Letters.
-                </p>
-                <p>
-                  The process was anything but easy. As a high school student, I had to teach myself how to read
-                  datasets from the General Statistics Office, learn how to apply GINI coefficients and
-                  comparative methods, and even how to use scatterplot diagrams to illustrate income changes.
-                  There were many late nights where I stared at numbers that refused to make sense, but slowly,
-                  patterns began to emerge. What surprised me most was the finding: COVID-19 actually reduced
-                  income inequality in Vietnam from 2020 to 2023, because wealthier groups in urban centers were
-                  disproportionately hit by lockdowns and business contractions.
-                </p>
-                <p>
-                  Beyond the technical side, the research taught me something deeper: how knowledge can challenge
-                  assumptions. It pushed me to move from passively accepting "common sense" to actively questioning
-                  and proving with evidence. Presenting this work and eventually seeing it published gave me
-                  confidence that even as a student, I could contribute to meaningful conversations about economics
-                  and society.
-                </p>
-                <p>
-                  For me, this milestone isn't just about publishing a paper. It's about discovering how much I love
-                  research - the patience it requires, the resilience it builds, and the excitement of finding answers
-                  no one has clearly put into words before.
-                </p>
-              </div>
-            </div>
+              <div className="flex flex-col md:flex-row gap-8 md:gap-10 items-start w-full">
+                {/* Text Content */}
+                <div className="flex flex-col gap-4 text-xs md:text-sm text-black text-justify mt-4 md:w-1/3">
+                  <p>
+                    When COVID-19 hit, I kept hearing people around me talk about how "the poor suffered the most."
+                    It made sense at first, but something in me wanted to test whether this was actually true for
+                    Vietnam. That small curiosity eventually became my very first academic research project, later
+                    published in The Economics and Finance Letters.
+                  </p>
+                  <p>
+                    The process was anything but easy. As a high school student, I had to teach myself how to read
+                    datasets from the General Statistics Office, learn how to apply GINI coefficients and
+                    comparative methods, and even how to use scatterplot diagrams to illustrate income changes.
+                    There were many late nights where I stared at numbers that refused to make sense, but slowly,
+                    patterns began to emerge. What surprised me most was the finding: COVID-19 actually reduced
+                    income inequality in Vietnam from 2020 to 2023, because wealthier groups in urban centers were
+                    disproportionately hit by lockdowns and business contractions.
+                  </p>
+                  <p>
+                    Beyond the technical side, the research taught me something deeper: how knowledge can challenge
+                    assumptions. It pushed me to move from passively accepting "common sense" to actively questioning
+                    and proving with evidence. Presenting this work and eventually seeing it published gave me
+                    confidence that even as a student, I could contribute to meaningful conversations about economics
+                    and society.
+                  </p>
+                  <p>
+                    For me, this milestone isn't just about publishing a paper. It's about discovering how much I love
+                    research - the patience it requires, the resilience it builds, and the excitement of finding answers
+                    no one has clearly put into words before.
+                  </p>
+                </div>
 
-            {/* Frame104 - Charts */}
-            <div className="content-stretch flex flex-col md:flex-row gap-6 md:gap-10 items-center relative shrink-0 w-full max-w-[960px] mx-auto pt-8">
-              <div className="w-full md:basis-0 md:grow aspect-[4/3] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
-                <Image
-                  src={"/c07f317cb1cb4a9c6d163a8a38c24732361fec51.png"}
-                  width={444}
-                  height={548}
-                  alt="chart"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full md:basis-0 md:grow aspect-[4/3] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 2">
-                <Image
-                  src={"/10db2714d8ae0ce81cd6b1d9752050aead63625f.png"}
-                  width={444}
-                  height={575}
-                  alt="chart"
-                  className="w-full h-full object-cover"
-                />
+                {/* Frame104 - Charts */}
+                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:w-2/3">
+                  <div className="w-full md:basis-0 md:grow aspect-[3/4] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
+                    <Image
+                      src={'/c07f317cb1cb4a9c6d163a8a38c24732361fec51.png'}
+                      width={444}
+                      height={548}
+                      alt="chart"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="w-full md:basis-0 md:grow aspect-[3/4] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 2">
+                    <Image
+                      src={'/10db2714d8ae0ce81cd6b1d9752050aead63625f.png'}
+                      width={444}
+                      height={575}
+                      alt="chart"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-            {/* Frame96 */}
-            <div id="research-living-cost" className="content-stretch flex flex-col font-normal gap-4 md:gap-[16px] items-start leading-relaxed md:leading-[0] relative shrink-0 text-sm md:text-[18px] text-black w-full md:w-[960px] max-w-[960px] mx-auto">
-              {/* Frame86 */}
-              <div className="bg-[#b7b7b7] content-stretch relative h-[300px] md:h-[512px] w-full rounded-lg md:rounded-none overflow-hidden">
-                <div className="relative h-full w-full group">
+            {/* Frame96 & Frame97 Refactored with Flex Layout */}
+            <div id="research-living-cost" className="w-full max-w-[960px] mx-auto flex flex-col">
+              {/* Image Container */}
+              <div className="w-full">
+                <div className="relative aspect-[16/9] overflow-hidden rounded-lg group">
                   <Image
                     src="/under-the-hat/close-up-calculator-global-economy-money.jpg"
                     alt="THE DETERMINANTS OF LIVING COST IN VIETNAM"
@@ -339,80 +341,57 @@ export default function UnderTheHatPage() {
                   </div>
                 </div>
               </div>
-            </div>
-            {/* Frame97 */}
-            <div className="content-stretch flex flex-col gap-8 md:gap-[72px] h-auto md:h-[1237px] items-center justify-center relative shrink-0 w-full md:w-[960px] max-w-[960px] mx-auto">
-              {/* Frame106 */}
-              <div className="content-stretch flex flex-col gap-8 md:gap-[72px] items-start justify-center relative shrink-0 w-full">
-                {/* Frame88 */}
-                <div className="content-stretch flex flex-col gap-4 md:gap-[24px] items-start justify-center relative shrink-0 w-full">
-                  {/* Frame87 */}
-                  <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
-                    <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                      <p className="leading-relaxed md:leading-[normal]">
-                        As a high school student fascinated by finance, I wanted to go beyond textbooks and test a big
-                        theory in a local context. The Balassa-Samuelson hypothesis, which links productivity to cost of
-                        living, felt abstract until I asked myself: What does this mean for Vietnam? That simple
-                        question became the starting point of my research project, later published in an academic
-                        journal.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* Frame105 */}
-                <div className="content-stretch flex flex-col gap-4 md:gap-[24px] items-start justify-center relative shrink-0 w-full">
-                  {/* Frame89 */}
-                  <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
-                    <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                      <p className="leading-relaxed md:leading-[normal]">
-                        I gathered panel data from 63 provinces over five years (2018–2022), taught myself how to use
-                        EViews for econometric modeling, and applied regression analysis to identify factors driving
-                        living-cost differences across regions. The process was full of challenges—long hours cleaning
-                        messy datasets, re-checking models when coefficients didn't make sense—but it taught me
-                        patience, rigor, and the ability to turn theory into empirical insight.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                  <p className="leading-relaxed md:leading-[normal]">
-                    The results surprised me: trained labor and formal sector size push living costs higher, while
-                    informal businesses and rural populations lower them. Beyond the numbers, I realized that research
-                    can reframe how we see inequality: it's not only about income gaps, but also about structural
-                    productivity differences that shape daily life.
-                  </p>
-                </div>
-                <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                  <p className="leading-relaxed md:leading-[normal]">
-                    This project gave me more than technical skills in econometrics—it gave me confidence that even as a
-                    student, I can contribute to understanding national issues. Most importantly, it deepened my belief
-                    that economics is not just theory; it's a way to ask sharper questions about society and find
-                    answers that matter.
-                  </p>
-                </div>
+
+              {/* Text Content */}
+              <div className="flex flex-col gap-4 text-sm md:text-base text-black text-justify mt-4">
+                <p>
+                  As a high school student fascinated by finance, I wanted to go beyond textbooks and test a big
+                  theory in a local context. The Balassa-Samuelson hypothesis, which links productivity to cost of
+                  living, felt abstract until I asked myself: What does this mean for Vietnam? That simple
+                  question became the starting point of my research project, later published in an academic
+                  journal.
+                </p>
+                <p>
+                  I gathered panel data from 63 provinces over five years (2018–2022), taught myself how to use
+                  EViews for econometric modeling, and applied regression analysis to identify factors driving
+                  living-cost differences across regions. The process was full of challenges-long hours cleaning
+                  messy datasets, re-checking models when coefficients didn't make sense-but it taught me
+                  patience, rigor, and the ability to turn theory into empirical insight.
+                </p>
+                <p>
+                  The results surprised me: trained labor and formal sector size push living costs higher, while
+                  informal businesses and rural populations lower them. Beyond the numbers, I realized that research
+                  can reframe how we see inequality: it's not only about income gaps, but also about structural
+                  productivity differences that shape daily life.
+                </p>
+                <p>
+                  This project gave me more than technical skills in econometrics-it gave me confidence that even as a
+                  student, I can contribute to understanding national issues. Most importantly, it deepened my belief
+                  that economics is not just theory; it's a way to ask sharper questions about society and find
+                  answers that matter.
+                </p>
               </div>
-              {/* Frame107 */}
-              <div className="content-stretch flex flex-col md:flex-row gap-6 md:gap-[72px] items-center relative shrink-0 w-full">
-                <div className="w-full md:basis-0 md:flex md:flex-row md:grow md:items-center md:self-stretch shrink-0">
-                  <div className="w-full md:basis-0 md:grow aspect-[4/3] md:h-full md:min-h-px md:min-w-px relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
-                    <Image
-                      src={"/cdf284af1595e1b9def4a45f45911dcb7f47f745.png"}
-                      width={444}
-                      height={575}
-                      alt="chart"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-                <div className="w-full md:basis-0 md:grow aspect-[4/3] md:h-[575px] md:min-h-px md:min-w-px relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 2">
+            </div>
+
+            {/* Frame107 - Charts */}
+            <div className="content-stretch flex flex-col md:flex-row gap-6 md:gap-[42px] items-stretch relative shrink-0 w-full max-w-[960px] mx-auto pt-8">
+              <div className="w-full md:basis-0 md:grow relative rounded-lg md:rounded-none overflow-hidden">
                   <Image
-                    src={"/9689d532f5f826617437630d35a9f12e71c341ab.png"}
+                    src={"/cdf284af1595e1b9def4a45f45911dcb7f47f745.png"}
                     width={444}
                     height={575}
                     alt="chart"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
-                </div>
+              </div>
+              <div className="w-full md:basis-0 md:grow relative rounded-lg md:rounded-none overflow-hidden">
+                <Image
+                  src={"/9689d532f5f826617437630d35a9f12e71c341ab.png"}
+                  width={444}
+                  height={575}
+                  alt="chart"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>

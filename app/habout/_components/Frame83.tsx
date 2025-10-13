@@ -8,7 +8,7 @@ function Frame57() {
           If you opened my photo gallery, you’d probably wonder if I even exist. There are barely any pictures of me,
           not because I’m camera shy (best believe I will photobomb everyone), but because my phone has been busy
           capturing everyone and everything else. My classmates sometimes grab my phone and flood it with their
-          selfies—moments I might have to squint to remember but never to forget, because the laughter always lingers.
+          selfies-moments I might have to squint to remember but never to forget, because the laughter always lingers.
           Other times, I’m the one behind the camera, saving those small, unpolished slices of life: sweaty badminton
           matches under the sun, makeshift class parties with our chaotic soda cocktails, school trips filled with
           stories of traditional crafts, and naps where we whispered until we burst out laughing. They’re not perfect
@@ -27,7 +27,7 @@ function Frame58() {
         <p className="leading-[normal]">
           Beyond the gallery, I’m the eldest child in my family, the “big sister” not just to my two siblings but to all
           my cousins. I love kids, and I’d like to think I’m pretty good with them too. People usually recognize me by
-          my toothy smile and big laugh—I’m energetic, restless, always talking, sometimes to the point where I joke
+          my toothy smile and big laugh-I’m energetic, restless, always talking, sometimes to the point where I joke
           that if you generated “ADHD kid” with AI, you’d get me.
         </p>
       </div>
@@ -368,7 +368,7 @@ function Frame77() {
       <div className="flex flex-col font-['Inter:Regular',_sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-full">
         <p className="leading-[normal]">
           A quieter, more personal side of me: playing the flute. I may not be a professional musician, but I find joy
-          in breathing life into melodies—simple notes that can carry calmness, nostalgia, or even playfulness. It’s one
+          in breathing life into melodies-simple notes that can carry calmness, nostalgia, or even playfulness. It’s one
           of those little things that remind me art doesn’t always need a stage to feel meaningful.
         </p>
       </div>

@@ -23,14 +23,14 @@ export default function App() {
           {/* Story 1: Bá Thước */}
           <AnimatedStorySection title="Footprints in Bá Thước" bgColor="bg-[#41a334]" galleryType="fansipan">
             <div className="flex flex-col justify-center relative w-full">
-              <p className="leading-relaxed text-sm md:text-base lg:text-lg">{`I've never understood why people dislike lists — I love them! Checking things off feels like therapy. So, travel lists combine my two favorite things: listing and traveling. In 10th grade, I got to check off Bá Thước.`}</p>
+              <p className="leading-relaxed text-sm md:text-base lg:text-lg">{`I've never understood why people dislike lists - I love them! Checking things off feels like therapy. So, travel lists combine my two favorite things: listing and traveling. In 10th grade, I got to check off Bá Thước.`}</p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
-              <p className="leading-relaxed text-sm md:text-base lg:text-lg">{`We started at Pà Pan Elementary, a small mountain school with rustic walls and endless laughter. That morning, we hosted games — tug-of-war, badminton (I may have bragged a bit when they cheered), and jump rope. Later, we led a financial workshop where "little adults" leaned in to learn about saving and dreaming big. Before leaving, we painted and decorated a play space, a small reminder that learning should always include joy.`}</p>
+              <p className="leading-relaxed text-sm md:text-base lg:text-lg">{`We started at Pà Pan Elementary, a small mountain school with rustic walls and endless laughter. That morning, we hosted games - tug-of-war, badminton (I may have bragged a bit when they cheered), and jump rope. Later, we led a financial workshop where "little adults" leaned in to learn about saving and dreaming big. Before leaving, we painted and decorated a play space, a small reminder that learning should always include joy.`}</p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-sm md:text-base lg:text-lg">
-                But the best part was the children: chatty Ngọc, confident Ánh, goofy Cường, shy Quân, and so many others whose names still echo in my mind. When we said goodbye, they hugged us tightly: "Don't forget our names," they said — and I haven't.
+                But the best part was the children: chatty Ngọc, confident Ánh, goofy Cường, shy Quân, and so many others whose names still echo in my mind. When we said goodbye, they hugged us tightly: "Don't forget our names," they said - and I haven't.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
@@ -40,10 +40,10 @@ export default function App() {
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg mb-0">
-                The next day, we explored Hang Dơi (yes, with real bat droppings) and, despite a few clumsy falls, it was worth it. Then came the rice fields — my favorite. Barefoot in the mud, I was reminded of childhood days with my grandmother, hands deep in the earth, feeling grounded in every sense.
+                The next day, we explored Hang Dơi (yes, with real bat droppings) and, despite a few clumsy falls, it was worth it. Then came the rice fields - my favorite. Barefoot in the mud, I was reminded of childhood days with my grandmother, hands deep in the earth, feeling grounded in every sense.
               </p>
               <p className="leading-relaxed text-lg">
-                Looking back, Bá Thước wasn't just a trip — it was an exchange. We shared what we knew and left with something greater: warmth, resilience, tradition, and the memory of children's laughter. Impact doesn't travel one way; it circles back, quietly, and stays with you.
+                Looking back, Bá Thước wasn't just a trip - it was an exchange. We shared what we knew and left with something greater: warmth, resilience, tradition, and the memory of children's laughter. Impact doesn't travel one way; it circles back, quietly, and stays with you.
               </p>
             </div>
           </AnimatedStorySection>
@@ -69,7 +69,7 @@ export default function App() {
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                The cable car view was breathtaking: clouds curling around mountains, valleys below, and, thanks to Grandma's luck, a double rainbow arcing across the sky. I've always loved rainbows — they include every color, leaving none behind.
+                The cable car view was breathtaking: clouds curling around mountains, valleys below, and, thanks to Grandma's luck, a double rainbow arcing across the sky. I've always loved rainbows - they include every color, leaving none behind.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
@@ -93,12 +93,12 @@ export default function App() {
           <AnimatedStorySection title="Bắc Kạn - Weaving Memories" bgColor="bg-[#2e7acf]" galleryType="backan">
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                I came to Bắc Kạn for the Bride to Business project, where we hosted a talk on financial technology and how child marriage affects women's lives. Serious stuff—but once the project wrapped up, the real joy began: slowing down, exploring, and finding beauty in small moments.
+                I came to Bắc Kạn for the Bride to Business project, where we hosted a talk on financial technology and how child marriage affects women's lives. Serious stuff-but once the project wrapped up, the real joy began: slowing down, exploring, and finding beauty in small moments.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                First was weaving. My clumsy hands tangled the threads while the artisans smiled and showed me brocade patterns—stories of mountains, harvests, and pride passed through generations. I realized I wasn't just weaving fabric, but touching memory itself.
+                First was weaving. My clumsy hands tangled the threads while the artisans smiled and showed me brocade patterns-stories of mountains, harvests, and pride passed through generations. I realized I wasn't just weaving fabric, but touching memory itself.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
@@ -108,12 +108,12 @@ export default function App() {
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                At Hang Múa Hạ, the glittering stalactites felt like stepping into another world. I was, predictably, the last one out—but proud of every step, cheered on by my friends.
+                At Hang Múa Hạ, the glittering stalactites felt like stepping into another world. I was, predictably, the last one out-but proud of every step, cheered on by my friends.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                When the trip ended, I knew Bắc Kạn had given me more than a project. It gave me memories stitched like brocade—threads of sound, rhythm, laughter, and quiet strength—woven into a song I'll keep with me long after the journey.
+                When the trip ended, I knew Bắc Kạn had given me more than a project. It gave me memories stitched like brocade-threads of sound, rhythm, laughter, and quiet strength-woven into a song I'll keep with me long after the journey.
               </p>
             </div>
           </AnimatedStorySection>

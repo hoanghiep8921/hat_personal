@@ -476,7 +476,7 @@ function Frame77() {
       <div className="flex flex-col font-light justify-center relative shrink-0 text-sm md:text-[16px] w-full">
         <p className="leading-[normal]">
           A quieter, more personal side of me: playing the flute. I may not be a professional musician, but I find joy
-          in breathing life into melodies—simple notes that can carry calmness, nostalgia, or even playfulness. It's one
+          in breathing life into melodies-simple notes that can carry calmness, nostalgia, or even playfulness. It's one
           of those little things that remind me art doesn't always need a stage to feel meaningful.
         </p>
       </div>
