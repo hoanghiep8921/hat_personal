@@ -105,97 +105,75 @@ export default function UnderTheHatPage() {
       </div>
       {/* End Frame62 */}
       {/* Frame79 */}
-      <div id="carve-per-diem" className="relative w-full bg-white py-12 md:py-[83px]">
-        <div className="flex flex-col justify-center size-full max-w-6xl mx-auto px-4 md:px-0">
-          <div className="box-border content-stretch flex flex-col gap-6 md:gap-10 items-center md:items-end justify-center py-0 relative w-full">
-            {/* Frame73 */}
-            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[42px] items-center justify-center relative shrink-0 w-full">
-              <div className="h-[350px] md:h-[600px] relative shrink-0 w-full md:w-[800px] rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
-                <Image
-                  src="/under-the-hat/529296921_122163890942461520_9050323691325181288_n.jpg"
-                  alt="carve"
-                  width={694}
-                  height={470}
-                  className="w-full object-cover md:object-fill h-full"
-                />
-              </div>
-              {/* Frame72 */}
-              <div className="basis-0 content-stretch flex flex-col gap-4 md:gap-[24px] grow items-start justify-center min-h-px min-w-px relative shrink-0">
-                {/* Frame71 */}
-                <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
-                  <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                    <p className="leading-relaxed md:leading-[normal] text-justify">
-                      A project born from Nam Định's crafts - blending tradition and modernity to honor artisans,
-                      preserve heritage, and carve out a living culture for today
-                    </p>
-                  </div>
+      <div id="carve-per-diem" className="relative w-full bg-white py-12 md:py-[83px] px-4 text-black">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col gap-10">
+            {/* Top section: Image on left, text on right */}
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              <div className="w-full md:w-1/2">
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                  <Image
+                    src="/under-the-hat/529296921_122163890942461520_9050323691325181288_n.jpg"
+                    alt="carve"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
               </div>
-            </div>
-            {/* Frame77 */}
-            <div className="content-stretch flex flex-col md:flex-row gap-8 md:gap-[42px] items-center justify-center relative shrink-0 w-full text-justify">
-              {/* Frame93 */}
-              <div className="basis-0 content-stretch flex flex-col gap-6 md:gap-10 grow items-start justify-center min-h-px min-w-px relative shrink-0">
-                {/* Frame75 */}
-                <div className="content-stretch flex flex-col gap-4 md:gap-[24px] items-start justify-center relative shrink-0 w-full">
-                  {/* Frame74 */}
-                  <div className="content-stretch flex flex-col gap-4 md:gap-[28px] items-end relative shrink-0 w-full">
-                    <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full">
-                      <p className="leading-relaxed md:leading-[normal] md:whitespace-pre-wrap">{`Carve Per Diem began with a trip to my mother side's hometown - to Nam Định. Stepping off the bus into the quiet hum of the countryside, the air carrying the faint scent of wood and lacquer, the sun scorching above. I was greeted by my aunt, who introduced me to a family of craftsmen who have kept the art of mother-of-pearl inlay and rolled bamboo alive through generations.`}</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Row 1 */}
-                <div className="flex flex-col md:flex-row gap-4 md:gap-[42px] items-start">
-                  <div className="flex-1 order-2 md:order-1">
-                    <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative text-sm md:text-[18px] text-black">
-                      <p className="leading-relaxed md:leading-[normal]">
-                        In their small workshop, I watched their hands move with precision, each shell and bamboo piece becoming a story of skill, patience, and pride. They spoke of learning from their parents, of the joy and struggle of preserving tradition in a world that often overlooks it. Their passion was contagious, and under their guidance, I tried my hand at inlaying shells - clumsy at first, but hooked by the beauty of the craft.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-[350px] order-1 md:order-2">
-                    <div className="aspect-[4/3] md:aspect-[21/12] relative w-full overflow-hidden rounded-lg md:rounded-none">
-                      <Image
-                        src="/under-the-hat/471638784_122109235778665458_4713803215152754796_n.jpg"
-                        alt="Artisans working on traditional crafts"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Row 2 */}
-                <div className="flex flex-col md:flex-row gap-4 md:gap-[42px] items-start">
-                  <div className="flex-1">
-                    <div className="flex flex-col font-normal justify-center leading-relaxed md:leading-[0] not-italic relative text-sm md:text-[18px] text-black">
-                      <p className="leading-relaxed md:leading-[normal]">
-                        I realized then how undervalued Vietnamese artisans are. While foreign craftsmanship is celebrated, many of our own masters work quietly in obscurity. I wanted to change that - to show the world their artistry and the stories behind it.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-[350px]">
-                    <div className="aspect-[4/3] md:aspect-[21/12] relative w-full overflow-hidden rounded-lg md:rounded-none">
-                      <Image
-                        src="/under-the-hat/471509649_122109236012665458_4977494717128245949_n.jpg"
-                        alt="Traditional Vietnamese craftsmanship"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Frame78 */}
-            <div className="content-stretch flex flex-col font-normal gap-6 md:gap-[28px] items-end leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full text-justify">
-              <div className="flex flex-col justify-center relative shrink-0 w-full">
-                <p className="leading-relaxed md:leading-[normal]">
-                  The name Carve Per Diem, inspired by Dead Poets Society, reflects the spirit of preserving art and seizing the day. What began as an idea grew into a year-long journey of learning, partnering with over 50 artisan families, and launching an online platform. My goal remains simple: to bridge tradition and modernity, and to carve out a lasting space for Vietnamese craftsmanship to thrive.
+              <div className="w-full md:w-1/2 text-justify">
+                <p className="text-sm md:text-lg">
+                  A project born from Nam Định's crafts - blending tradition and modernity to honor artisans,
+                  preserve heritage, and carve out a living culture for today
                 </p>
               </div>
+            </div>
+
+            {/* Middle section: Text and two images */}
+            <div className="flex flex-col gap-8">
+              <p className="text-sm md:text-lg text-justify">
+                {`Carve Per Diem began with a trip to my mother side's hometown - to Nam Định. Stepping off the bus into the quiet hum of the countryside, the air carrying the faint scent of wood and lacquer, the sun scorching above. I was greeted by my aunt, who introduced me to a family of craftsmen who have kept the art of mother-of-pearl inlay and rolled bamboo alive through generations.`}
+              </p>
+              <div className="flex flex-col md:flex-row gap-8 items-center">
+                <div className="w-full md:w-1/2 text-justify">
+                  <p className="text-sm md:text-lg">
+                    In their small workshop, I watched their hands move with precision, each shell and bamboo piece becoming a story of skill, patience, and pride. They spoke of learning from their parents, of the joy and struggle of preserving tradition in a world that often overlooks it. Their passion was contagious, and under their guidance, I tried my hand at inlaying shells - clumsy at first, but hooked by the beauty of the craft.
+                  </p>
+                </div>
+                <div className="w-full md:w-1/2">
+                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                    <Image
+                      src="/under-the-hat/471638784_122109235778665458_4713803215152754796_n.jpg"
+                      alt="Artisans working on traditional crafts"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
+                <div className="w-full md:w-1/2 text-justify">
+                  <p className="text-sm md:text-lg">
+                    I realized then how undervalued Vietnamese artisans are. While foreign craftsmanship is celebrated, many of our own masters work quietly in obscurity. I wanted to change that - to show the world their artistry and the stories behind it.
+                  </p>
+                </div>
+                <div className="w-full md:w-1/2">
+                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+                    <Image
+                      src="/under-the-hat/471509649_122109236012665458_4977494717128245949_n.jpg"
+                      alt="Traditional Vietnamese craftsmanship"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom section: Text */}
+            <div className="text-justify">
+              <p className="text-sm md:text-lg">
+                The name Carve Per Diem, inspired by Dead Poets Society, reflects the spirit of preserving art and seizing the day. What began as an idea grew into a year-long journey of learning, partnering with over 50 artisan families, and launching an online platform. My goal remains simple: to bridge tradition and modernity, and to carve out a lasting space for Vietnamese craftsmanship to thrive.
+              </p>
             </div>
           </div>
         </div>
