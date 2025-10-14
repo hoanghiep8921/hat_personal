@@ -27,11 +27,15 @@ function GalleryFrame55({ currentSlide }: { currentSlide: number }) {
       <div className="block md:hidden">
         <div className="aspect-[4/3] rounded-lg overflow-hidden">
           <Image 
-            width={1000}
-            height={1000}
+            width={800}
+            height={600}
             src={images[currentSlide]} 
             alt={`Gallery image ${currentSlide + 1}`} 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover"
+            quality={75}
+            priority={currentSlide === 0}
+            loading={currentSlide === 0 ? "eager" : "lazy"}
+            sizes="100vw"
           />
         </div>
       </div>
@@ -46,11 +50,14 @@ function GalleryFrame55({ currentSlide }: { currentSlide: number }) {
               className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx ? "opacity-100" : "opacity-60"}`}
             >
               <Image 
-                width={1000}
-                height={1000}
+                width={800}
+                height={600}
                 src={img} 
                 alt={`Gallery image ${idx + 1}`} 
-                className="aspect-[4/3] object-cover w-full" 
+                className="aspect-[4/3] object-cover w-full"
+                loading={idx < 2 ? "eager" : "lazy"}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 25vw"
               />
             </div>
           ))}
@@ -64,11 +71,14 @@ function GalleryFrame55({ currentSlide }: { currentSlide: number }) {
               className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx + 4 ? "opacity-100" : "opacity-60"}`}
             >
               <Image 
-                width={1000}
-                height={1000}
+                width={800}
+                height={600}
                 src={img} 
                 alt={`Gallery image ${idx + 5}`} 
-                className="aspect-[4/3] object-cover w-full" 
+                className="aspect-[4/3] object-cover w-full"
+                loading="lazy"
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 25vw"
               />
             </div>
           ))}
