@@ -1,32 +1,40 @@
 "use client";
 
 import React from "react";
-import { ImageCarousel } from "./ImageCarousel";
-import { VideoPlayer } from "./VideoPlayer";
+import { StaticImageGallery } from "./StaticImageGallery";
 
 const FANSIPAN_IMAGES = [
-  "/hat-there/fansipan/20200619_201032.jpg",
-  "/hat-there/fansipan/20200620_093358.jpg",
-  "/hat-there/fansipan/20200620_112139.jpg",
-  "/hat-there/fansipan/20200620_112159.jpg",
-  "/hat-there/fansipan/20200620_124434.jpg",
-  "/hat-there/fansipan/20200620_175949.jpg",
-  "/hat-there/fansipan/20200620_181917.jpg",
-  "/hat-there/fansipan/20200620_183828.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_085210.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_093403.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_093630.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_112139.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_123029.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_124502.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_124936.jpg",
+  "/hat-there/fansipan/Fansipan/20200620_183828.jpg",
 ];
 
 const BATHUOC_IMAGES = [
-  "/hat-there/bathuoc/1.jpg",
-  "/hat-there/bathuoc/2.jpg",
-  "/hat-there/bathuoc/3.jpg",
-  "/hat-there/bathuoc/4.jpg",
-  "/hat-there/bathuoc/5.jpg",
-  "/hat-there/bathuoc/6.jpg",
-  "/hat-there/bathuoc/7.jpg",
-  "/hat-there/bathuoc/8.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240525_152053.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240525_153325.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240525_155800.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240525_163834.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240525_183005.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240526_092145.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240526_102306.jpg",
+  "/hat-there/bathuoc/Bá Thước/20240526_145433.jpg",
 ];
 
-const BACKAN_VIDEO_SRC = "/hat-there/bac-can.mp4";
+const BACKAN_IMAGES = [
+  "/hat-there/bac-can/Bắc Kan/IMG_2761.jpeg",
+  "/hat-there/bac-can/Bắc Kan/IMG_4137.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_4562.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_9471.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_9490.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_9499.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_9510.JPG",
+  "/hat-there/bac-can/Bắc Kan/IMG_9839.JPG",
+];
 
 interface StorySectionProps {
   title: string;
@@ -36,6 +44,16 @@ interface StorySectionProps {
 }
 
 export function AnimatedStorySection({ title, bgColor, children, galleryType = "fansipan" }: StorySectionProps) {
+  const galleryImages = 
+    galleryType === "fansipan" ? FANSIPAN_IMAGES :
+    galleryType === "bathuoc" ? BATHUOC_IMAGES :
+    BACKAN_IMAGES;
+
+  const altPrefix = 
+    galleryType === "fansipan" ? "Fansipan" :
+    galleryType === "bathuoc" ? "Bá Thước" :
+    "Bắc Kạn";
+
   return (
     <section className="py-8 md:py-12 lg:py-16 w-full">
       <div className="max-w-[960px] mx-auto px-4 md:px-0">
@@ -54,13 +72,7 @@ export function AnimatedStorySection({ title, bgColor, children, galleryType = "
               </div>
             </div>
           </div>
-          {galleryType === "fansipan" ? (
-            <ImageCarousel images={FANSIPAN_IMAGES} altPrefix="Fansipan story" />
-          ) : galleryType === "bathuoc" ? (
-            <ImageCarousel images={BATHUOC_IMAGES} altPrefix="Ba Thuoc story" />
-          ) : (
-            <VideoPlayer src={BACKAN_VIDEO_SRC} playbackRate={0.5} />
-          )}
+          <StaticImageGallery images={galleryImages} altPrefix={altPrefix} />
         </div>
       </div>
     </section>
