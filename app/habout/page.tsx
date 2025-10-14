@@ -55,8 +55,18 @@ function Frame55({ currentSlide }: { currentSlide: number }) {
     "/habout/about.jpg",
     "/habout/about2.jpg",
     "/habout/about3.jpg",
-    "/habout/about4.jpg"
+    "/habout/about4.jpg",
+    "/habout/about5.jpg",
+    "/habout/about6.jpg",
+    "/habout/about7.jpg",
+    "/habout/about8.jpg",
+    "/habout/about9.jpg",
+    "/habout/about10.jpg",
   ];
+
+  // Split images into two rows
+  const topRowImages = images.slice(0, 5);
+  const bottomRowImages = images.slice(5, 9);
 
   return (
     <div className="w-full">
@@ -71,20 +81,39 @@ function Frame55({ currentSlide }: { currentSlide: number }) {
         </div>
       </div>
       
-      {/* Desktop: All images display */}
-      <div className="hidden md:flex gap-[20px] items-start">
-        {images.map((img, idx) => (
-          <div
-            key={idx}
-            className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx ? "opacity-100" : "opacity-60"}`}
-          >
-            <ImageWithFallback 
-              src={img} 
-              alt={`Gallery image ${idx + 1}`} 
-              className="aspect-[4/3] object-cover w-full" 
-            />
-          </div>
-        ))}
+      {/* Desktop: Two rows of images */}
+      <div className="hidden md:flex flex-col gap-[20px]">
+        {/* Top row - 5 images */}
+        <div className="flex gap-[20px] items-start">
+          {topRowImages.map((img, idx) => (
+            <div
+              key={idx}
+              className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx ? "opacity-100" : "opacity-60"}`}
+            >
+              <ImageWithFallback 
+                src={img} 
+                alt={`Gallery image ${idx + 1}`} 
+                className="aspect-[4/3] object-cover w-full" 
+              />
+            </div>
+          ))}
+        </div>
+        
+        {/* Bottom row - 4 images */}
+        <div className="flex gap-[20px] items-start">
+          {bottomRowImages.map((img, idx) => (
+            <div
+              key={idx + 5}
+              className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx + 5 ? "opacity-100" : "opacity-60"}`}
+            >
+              <ImageWithFallback 
+                src={img} 
+                alt={`Gallery image ${idx + 6}`} 
+                className="aspect-[4/3] object-cover w-full" 
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -127,7 +156,7 @@ function Frame70({ onClick }: { onClick: () => void }) {
 function Frame72({ currentSlide }: { currentSlide: number }) {
   return (
     <div className="flex items-center justify-center gap-2">
-      {[0, 1, 2, 3].map((index) => (
+      {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
         <div
           key={index}
           className={`w-2 h-2 rounded-full transition-all duration-300 ${
@@ -208,11 +237,11 @@ function Frame69() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const handlePrev = () => {
-    setCurrentSlide(prev => (prev === 0 ? 3 : prev - 1));
+    setCurrentSlide(prev => (prev === 0 ? 8 : prev - 1));
   };
 
   const handleNext = () => {
-    setCurrentSlide(prev => (prev === 3 ? 0 : prev + 1));
+    setCurrentSlide(prev => (prev === 8 ? 0 : prev + 1));
   };
 
   return (

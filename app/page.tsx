@@ -2,9 +2,140 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useState } from "react";
+
+// Gallery carousel components
+function GalleryFrame55({ currentSlide }: { currentSlide: number }) {
+  const images = [
+    "/home/image/IMG_20251011_120659.jpg",
+    "/home/image/IMG_20251011_120657.jpg",
+    "/home/image/IMG_20251011_121237.jpg",
+    "/home/image/IMG_20251011_121610.jpg",
+    "/home/image/IMG_20251011_121636.jpg",
+    "/home/image/IMG_20251011_122117.jpg",
+    "/home/image/IMG_20251011_120640.jpg",
+    "/home/image/IMG_20251011_122350.jpg"
+  ];
+
+  // Split images into two rows
+  const topRowImages = images.slice(0, 4);
+  const bottomRowImages = images.slice(4, 8);
+
+  return (
+    <div className="w-full">
+      {/* Mobile: Single image display */}
+      <div className="block md:hidden">
+        <div className="aspect-[4/3] rounded-lg overflow-hidden">
+          <Image 
+            width={1000}
+            height={1000}
+            src={images[currentSlide]} 
+            alt={`Gallery image ${currentSlide + 1}`} 
+            className="w-full h-full object-cover" 
+          />
+        </div>
+      </div>
+      
+      {/* Desktop: Two rows of images */}
+      <div className="hidden md:flex flex-col gap-[20px]">
+        {/* Top row - 4 images */}
+        <div className="flex gap-[20px] items-start">
+          {topRowImages.map((img, idx) => (
+            <div
+              key={idx}
+              className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx ? "opacity-100" : "opacity-60"}`}
+            >
+              <Image 
+                width={1000}
+                height={1000}
+                src={img} 
+                alt={`Gallery image ${idx + 1}`} 
+                className="aspect-[4/3] object-cover w-full" 
+              />
+            </div>
+          ))}
+        </div>
+        
+        {/* Bottom row - 4 images */}
+        <div className="flex gap-[20px] items-start">
+          {bottomRowImages.map((img, idx) => (
+            <div
+              key={idx + 4}
+              className={`flex-1 transition-all duration-300 rounded-lg overflow-hidden ${currentSlide === idx + 4 ? "opacity-100" : "opacity-60"}`}
+            >
+              <Image 
+                width={1000}
+                height={1000}
+                src={img} 
+                alt={`Gallery image ${idx + 5}`} 
+                className="aspect-[4/3] object-cover w-full" 
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GalleryFrame72({ currentSlide }: { currentSlide: number }) {
+  return (
+    <div className="flex items-center justify-center gap-2">
+      {[0, 1, 2, 3, 4, 5, 6, 7].map((index) => (
+        <div
+          key={index}
+          className={`w-2 h-2 rounded-full transition-all duration-300 ${
+            currentSlide === index ? "bg-white" : "bg-gray-400"
+          }`}
+        />
+      ))}
+    </div>
+  );
+}
+
+function GalleryFrame73({ currentSlide, onPrev, onNext }: { currentSlide: number; onPrev: () => void; onNext: () => void }) {
+  return (
+    <div className="flex items-center justify-between w-full">
+      {/* Previous Button */}
+      <button 
+        onClick={onPrev}
+        className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+        aria-label="Previous image"
+      >
+        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      
+      {/* Dots Indicator */}
+      <GalleryFrame72 currentSlide={currentSlide} />
+      
+      {/* Next Button */}
+      <button 
+        onClick={onNext}
+        className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-colors"
+        aria-label="Next image"
+      >
+        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  );
+}
 
 export default function Home() {
   const router = useRouter();
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentSlide(prev => (prev === 0 ? 7 : prev - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentSlide(prev => (prev === 7 ? 0 : prev + 1));
+  };
+
   return (
     <main className="flex min-h-screen flex-col">
       <div className="max-w-[960px] mx-auto px-4 md:px-0">
@@ -107,6 +238,15 @@ export default function Home() {
                   <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
                 </Link>
               </div>
+            </div>
+          </div>
+        </section>
+        {/* Gallery Section */}
+        <section className="py-12 md:py-24">
+          <div className="w-full">
+            <div className="space-y-6">
+              <GalleryFrame55 currentSlide={currentSlide} />
+              <GalleryFrame73 currentSlide={currentSlide} onPrev={handlePrev} onNext={handleNext} />
             </div>
           </div>
         </section>

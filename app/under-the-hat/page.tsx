@@ -89,16 +89,16 @@ export default function UnderTheHatPage() {
               <Image src="/under-the-hat/IMG_2723.jpeg" alt="Community work image 2" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
-              <Image src="/under-the-hat/IMG_3700.JPG" alt="Community work image 3" fill className="object-cover" />
+              <Image src="/under-the-hat/IMG_3700.jpeg" alt="Community work image 3" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
               <Image src="/under-the-hat/IMG_9765.jpeg" alt="Community work image 4" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
-              <Image src="/under-the-hat/IMG_0943.jpeg" alt="Community work image 5" fill className="object-cover" />
+              <Image src="/under-the-hat/IMG_3949.jpeg" alt="Community work image 5" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
-              <Image src="/under-the-hat/471509649_122109236012665458_4977494717128245949_n.jpg" alt="Community work image 6" fill className="object-cover" />
+              <Image src="/under-the-hat/IMG_9438.jpg" alt="Community work image 6" fill className="object-cover" />
             </div>
           </div>
         </div>
