@@ -102,10 +102,10 @@ export default function Home() {
                 me introduce myself.
               </p>
               <div className="text-center md:text-right">
-                <button className="w-full md:w-auto border border-gray-300 px-6 md:px-8 py-3 text-base md:text-lg hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 group relative overflow-hidden">
+                <Link href="/habout" className="w-full md:w-auto border border-gray-300 px-6 md:px-8 py-3 text-base md:text-lg hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 group relative overflow-hidden inline-block">
                   <span className="relative z-10">Read more</span>
                   <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function Home() {
                 <Image
                   width={1000}
                   height={1000}
-                  src="/home/freepik__talk__60440.png"
+                  src="/home/RESEARCH.jpg"
                   className="aspect-square transform transition-transform hover:scale-[1.02] rounded-md object-cover"
                   alt="freepik__talk__60440.png"
                 />
@@ -155,10 +155,10 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center">
-            <button className="w-full md:w-auto border border-gray-300 px-6 md:px-8 py-3 text-base md:text-lg hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 group relative overflow-hidden">
+            <Link href="/under-the-hat" className="w-full md:w-auto border border-gray-300 px-6 md:px-8 py-3 text-base md:text-lg hover:bg-white hover:text-black transition-all duration-300 transform hover:scale-105 group relative overflow-hidden">
               <span className="relative z-10">Read more</span>
               <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-            </button>
+            </Link>
           </div>
         </section>
 

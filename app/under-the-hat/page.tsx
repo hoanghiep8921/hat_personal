@@ -79,7 +79,7 @@ export default function UnderTheHatPage() {
       {/* End Frame70 */}
       {/* Frame62 */}
       <div className="box-border content-stretch flex flex-col items-center justify-center py-8 md:py-[72px] relative shrink-0 w-full">
-        {/* Frame61 */}
+         {/* Frame61 */}
         <div className="w-full px-4">
           <div className="grid grid-cols-6 gap-2">
             <div className="aspect-[3/4] relative w-full overflow-hidden">
@@ -179,37 +179,28 @@ export default function UnderTheHatPage() {
         </div>
       </div>
       {/* End Frame79 */}
-      {/* Frame63 */}
-      <div className="box-border content-stretch flex flex-col gap-8 md:gap-[42px] h-auto md:h-[560px] items-center justify-center px-4 md:px-0 py-8 md:py-[48px] relative shrink-0 w-full">
-        {/* Frame80 */}
-        <div className="h-auto md:h-[324px] relative shrink-0 w-full">
-          <div className="size-full">
-            <div className="box-border content-stretch flex flex-col md:flex-row gap-6 md:gap-[36px] h-auto md:h-[324px] items-start py-0 relative w-full max-w-[960px] mx-auto">
-              <div className="basis-0 grow h-auto md:h-full min-h-px min-w-px relative shrink-0">
-                <div className="aspect-[4/3] relative w-full h-full overflow-hidden rounded-lg md:rounded-none">
-                  <Image
-                    src="/under-the-hat/471603037_122109235220665458_8565316598835548495_n.jpg"
-                    alt="Under the Hat Image 1"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-              <div className="basis-0 grow h-auto md:h-full min-h-px min-w-px relative shrink-0">
-                <div className="aspect-[4/3] relative w-full h-full overflow-hidden rounded-lg md:rounded-none">
-                  <Image
-                    src="/under-the-hat/528693709_122163892958461520_6453013029277558685_n.jpg"
-                    alt="Under the Hat Image 2"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-              <div className="basis-0 grow h-auto md:h-full min-h-px min-w-px relative shrink-0">
-                <div className="aspect-[4/3] relative w-full h-full overflow-hidden rounded-lg md:rounded-none">
-                  <Image src="/under-the-hat/IMG_0943.jpeg" alt="Under the Hat Image 3" fill className="object-cover" />
-                </div>
-              </div>
+
+       <div className="box-border content-stretch flex flex-col items-center justify-center py-8 md:py-[72px] relative shrink-0 w-full">
+         {/* Frame63 */}
+        <div className="w-full px-4">
+          <div className="grid grid-cols-6 gap-2">
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/3.jpg" alt="Community work image 1" fill className="object-cover" />
+            </div>
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/471603037_122109235220665458_8565316598835548495_n.jpg" alt="Community work image 2" fill className="object-cover" />
+            </div>
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/528693709_122163892958461520_6453013029277558685_n.jpg" alt="Community work image 3" fill className="object-cover" />
+            </div>
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/IMG_0943.jpeg" alt="Community work image 4" fill className="object-cover" />
+            </div>
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/1.jpg" alt="Community work image 5" fill className="object-cover" />
+            </div>
+            <div className="aspect-[3/4] relative w-full overflow-hidden">
+              <Image src="/under-the-hat/2.jpg" alt="Community work image 6" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -220,7 +211,7 @@ export default function UnderTheHatPage() {
         <div className="flex flex-col items-center justify-center size-full">
           <div className="box-border content-stretch flex flex-col gap-12 md:gap-[48px] items-center justify-center py-12 md:py-[160px] px-4 md:px-0 relative w-full">
             {/* Frame95 & Frame68 Refactored with Flex Layout */}
-            <div id="research-covid" className="w-full px-4 md:px-16 flex flex-col">
+            <div id="research-covid" className="w-full max-w-[960px] mx-auto flex flex-col">
               {/* Image Container */}
               <div className="w-full">
                 <div className="relative aspect-[16/9] overflow-hidden rounded-lg group">
@@ -246,59 +237,39 @@ export default function UnderTheHatPage() {
                 </div>
               </div>
               
-              <div className="flex flex-col md:flex-row gap-8 md:gap-10 items-start w-full">
-                {/* Text Content */}
-                <div className="flex flex-col gap-4 text-xs md:text-sm text-black text-justify mt-4 md:w-1/3">
-                  <p>
-                    When COVID-19 hit, I kept hearing people around me talk about how "the poor suffered the most."
-                    It made sense at first, but something in me wanted to test whether this was actually true for
-                    Vietnam. That small curiosity eventually became my very first academic research project, later
-                    published in The Economics and Finance Letters.
-                  </p>
-                  <p>
-                    The process was anything but easy. As a high school student, I had to teach myself how to read
-                    datasets from the General Statistics Office, learn how to apply GINI coefficients and
-                    comparative methods, and even how to use scatterplot diagrams to illustrate income changes.
-                    There were many late nights where I stared at numbers that refused to make sense, but slowly,
-                    patterns began to emerge. What surprised me most was the finding: COVID-19 actually reduced
-                    income inequality in Vietnam from 2020 to 2023, because wealthier groups in urban centers were
-                    disproportionately hit by lockdowns and business contractions.
-                  </p>
-                  <p>
-                    Beyond the technical side, the research taught me something deeper: how knowledge can challenge
-                    assumptions. It pushed me to move from passively accepting "common sense" to actively questioning
-                    and proving with evidence. Presenting this work and eventually seeing it published gave me
-                    confidence that even as a student, I could contribute to meaningful conversations about economics
-                    and society.
-                  </p>
-                  <p>
-                    For me, this milestone isn't just about publishing a paper. It's about discovering how much I love
-                    research - the patience it requires, the resilience it builds, and the excitement of finding answers
-                    no one has clearly put into words before.
-                  </p>
-                </div>
+              {/* Text Content */}
+              <div className="flex flex-col gap-4 text-sm md:text-base text-black text-justify mt-4">
+                <p>
+                  When COVID-19 hit, I kept hearing that 'the poor suffered the most’. Curious, I decided to test this for Vietnam - my first research project, later published in The Economics and Finance Letters
+                </p>
+                <p>
+                  I taught myself to read national datasets, apply GINI coefficients, and visualize income changes. The result was surprising: from 2020 - 2023, COVID-19 reduced income inequality, as wealthier urban groups were hit harder.
+                </p>
+                <p>
+                  Beyond the data, the project taught me how research challenges assumptions and how much I enjoy the patience, rigor, and discovery it demands..
+                </p>
+              </div>
+            </div>
 
-                {/* Frame104 - Charts */}
-                <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:w-2/3">
-                  <div className="w-full md:basis-0 md:grow aspect-[3/4] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 1">
-                    <Image
-                      src={'/c07f317cb1cb4a9c6d163a8a38c24732361fec51.png'}
-                      width={444}
-                      height={548}
-                      alt="chart"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div className="w-full md:basis-0 md:grow aspect-[3/4] relative shrink-0 rounded-lg md:rounded-none overflow-hidden" data-name="IMG_0174 2">
-                    <Image
-                      src={'/10db2714d8ae0ce81cd6b1d9752050aead63625f.png'}
-                      width={444}
-                      height={575}
-                      alt="chart"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
+            {/* Frame104 - Charts */}
+            <div className="content-stretch flex flex-col md:flex-row gap-6 md:gap-[42px] items-stretch relative shrink-0 w-full max-w-[960px] mx-auto pt-8">
+              <div className="w-full md:basis-0 md:grow relative rounded-lg md:rounded-none overflow-hidden">
+                <Image
+                  src={'/c07f317cb1cb4a9c6d163a8a38c24732361fec51.png'}
+                  width={444}
+                  height={548}
+                  alt="chart"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <div className="w-full md:basis-0 md:grow relative rounded-lg md:rounded-none overflow-hidden">
+                <Image
+                  src={'/10db2714d8ae0ce81cd6b1d9752050aead63625f.png'}
+                  width={444}
+                  height={575}
+                  alt="chart"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             {/* Frame96 & Frame97 Refactored with Flex Layout */}

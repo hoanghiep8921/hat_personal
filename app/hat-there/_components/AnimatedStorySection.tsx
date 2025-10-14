@@ -15,13 +15,24 @@ const FANSIPAN_IMAGES = [
   "/hat-there/fansipan/20200620_183828.jpg",
 ];
 
+const BATHUOC_IMAGES = [
+  "/hat-there/bathuoc/1.jpg",
+  "/hat-there/bathuoc/2.jpg",
+  "/hat-there/bathuoc/3.jpg",
+  "/hat-there/bathuoc/4.jpg",
+  "/hat-there/bathuoc/5.jpg",
+  "/hat-there/bathuoc/6.jpg",
+  "/hat-there/bathuoc/7.jpg",
+  "/hat-there/bathuoc/8.jpg",
+];
+
 const BACKAN_VIDEO_SRC = "/hat-there/bac-can.mp4";
 
 interface StorySectionProps {
   title: string;
   bgColor: string;
   children: React.ReactNode;
-  galleryType?: "fansipan" | "backan";
+  galleryType?: "bathuoc" | "fansipan" | "backan";
 }
 
 export function AnimatedStorySection({ title, bgColor, children, galleryType = "fansipan" }: StorySectionProps) {
@@ -45,6 +56,8 @@ export function AnimatedStorySection({ title, bgColor, children, galleryType = "
           </div>
           {galleryType === "fansipan" ? (
             <ImageCarousel images={FANSIPAN_IMAGES} altPrefix="Fansipan story" />
+          ) : galleryType === "bathuoc" ? (
+            <ImageCarousel images={BATHUOC_IMAGES} altPrefix="Ba Thuoc story" />
           ) : (
             <VideoPlayer src={BACKAN_VIDEO_SRC} playbackRate={0.5} />
           )}

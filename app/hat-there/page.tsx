@@ -21,7 +21,7 @@ export default function App() {
         {/* Main content */}
         <main className="flex flex-col gap-4 md:gap-8 w-full">
           {/* Story 1: Bá Thước */}
-          <AnimatedStorySection title="Footprints in Bá Thước" bgColor="bg-[#41a334]" galleryType="fansipan">
+          <AnimatedStorySection title="Footprints in Bá Thước" bgColor="bg-[#41a334]" galleryType="bathuoc">
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-sm md:text-base lg:text-lg">{`I've never understood why people dislike lists - I love them! Checking things off feels like therapy. So, travel lists combine my two favorite things: listing and traveling. In 10th grade, I got to check off Bá Thước.`}</p>
             </div>

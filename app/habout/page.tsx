@@ -266,7 +266,7 @@ function Frame68() {
 
   const router = useRouter();
   const handleReadMore = () => {
-    router.push("/hat-there");
+    router.push("/under-the-hat");
   };
 
   return (
@@ -387,6 +387,8 @@ function Frame74() {
       <div className="flex flex-col font-light justify-center relative shrink-0 text-base md:text-[20px] w-full max-w-[358px] px-4">
         <p className="leading-[normal]">A look at the moments where hard work turned into recognition</p>
       </div>
+
+      <Frame80 />
     </div>
   );
 }
@@ -489,20 +491,17 @@ function Frame77() {
 function Frame78() {
   return (
     <div className="content-stretch flex flex-col gap-4 md:gap-[24px] items-start relative shrink-0 flex-1">
-      <Group1 />
+      {/* <Group1 /> */}
+      <div className="w-full aspect-video relative rounded-lg overflow-hidden">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/xiBY656mpsA"
+          title="School Play Performance"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
       <Frame77 />
-    </div>
-  );
-}
-
-function Group2() {
-  return (
-    <div className="shrink-0 w-full">
-      <ImageWithFallback
-        src="https://images.unsplash.com/photo-1539964604210-db87088e0c2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGVhdGVyJTIwc3RhZ2UlMjBwZXJmb3JtYW5jZXxlbnwxfHx8fDE3NTkyNTAyODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
-        alt="School play performance"
-        className="size-auto aspect-[16/9] object-cover"
-      />
     </div>
   );
 }
@@ -551,27 +550,12 @@ function Frame80() {
   );
 }
 
-function Frame81() {
-  return (
-    <div className=" content-stretch flex flex-col gap-8 md:gap-[72px] items-center justify-center relative shrink-0 w-full py-8 md:py-16 lg:py-[160px]">
-      <div
-        className="flex flex-col font-extrabold justify-center leading-[0] min-w-full not-italic relative shrink-0 text-2xl md:text-[36px] text-center text-white px-4"
-        style={{ width: "min-content" }}
-      >
-        <p className="leading-[normal]">ANOTHER SIDE OF ME</p>
-      </div>
-      <Frame80 />
-    </div>
-  );
-}
-
 export default function App() {
   return (
     <div className="content-stretch flex flex-col items-start relative size-full overflow-y-auto">
       <Frame67 />
       <Frame85 />
       <Frame62 />
-      <Frame81 />
       {/* Frame64 - Unified Format */}
       <div className="bg-white w-full py-4 px-4 md:px-0">
         <div className="max-w-[960px] mx-auto">

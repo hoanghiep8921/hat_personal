@@ -173,17 +173,12 @@ export default function PiecesOfMediaPage() {
                               <div className="prose prose-sm md:prose-base lg:prose-xl prose-invert max-w-none font-light space-y-4 md:space-y-6 text-white">
                                 <div className="flex flex-col justify-center relative w-full">
                                   <p className="leading-relaxed text-sm md:text-base lg:text-lg">
-                                  The Bear follows Carmy, a gifted chef who returns to Chicago to revive his late brother's sandwich shop while battling grief and trauma. Enter Claire - his childhood friend, an ER doctor, and a rare moment of calm in his chaos. Despite her intelligence and warmth, audiences dismissed her as a Manic Pixie Dream Girl (MPDG), a flawless figure existing only to aid the male lead.
+                                  The Bear follows Carmy, a chef returning to Chicago to rebuild his late brother’s sandwich shop while battling grief. Claire - his childhood friend and an ER doctor - offers calm in his chaos, yet many dismissed her as a Manic Pixie Dream Girl (MPDG).
                                   </p>
                                 </div>
                                 <div className="flex flex-col justify-center relative w-full">
                                   <p className="leading-relaxed text-sm md:text-base lg:text-lg">
-                                    But Claire's "perfection" reflects not poor writing, but Carmy's projection - his yearning for stability he can't maintain. Like a scapegoat, she absorbs his failures and fears.
-                                  </p>
-                                </div>
-                                <div className="flex flex-col justify-center relative w-full">
-                                  <p className="leading-relaxed text-sm md:text-base lg:text-lg">
-                                    Overusing the MPDG label risks simplifying women yet again under the banner of critique. Not every female character must be assertive or career-driven to be valid; ambiguity, tenderness, and quiet presence are forms of depth too. True independence lies in the freedom to be complex, imperfect, and human - both in fiction and in life.
+                                    But her “perfection” reflects Carmy’s projection - his craving for stability he can’t sustain. The MPDG label, overused, flattens women into types. Not every woman must be bold to be real; quiet strength and tenderness are depth too. True independence is the freedom to be imperfect and human.
                                   </p>
                                 </div>
                               </div>
