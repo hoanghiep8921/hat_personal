@@ -95,7 +95,7 @@ export default function UnderTheHatPage() {
               <Image src="/under-the-hat/IMG_9765.jpeg" alt="Community work image 4" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
-              <Image src="/under-the-hat/IMG_3949.jpeg" alt="Community work image 5" fill className="object-cover" />
+              <Image src="/under-the-hat/IMG_3949.jpg" alt="Community work image 5" fill className="object-cover" />
             </div>
             <div className="aspect-[3/4] relative w-full overflow-hidden">
               <Image src="/under-the-hat/IMG_9438.jpg" alt="Community work image 6" fill className="object-cover" />

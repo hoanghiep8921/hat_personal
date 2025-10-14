@@ -4,36 +4,36 @@ import React from "react";
 import { StaticImageGallery } from "./StaticImageGallery";
 
 const FANSIPAN_IMAGES = [
-  "/hat-there/fansipan/Fansipan/20200620_085210.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_093403.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_093630.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_112139.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_123029.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_124502.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_124936.jpg",
-  "/hat-there/fansipan/Fansipan/20200620_183828.jpg",
+  "/hat-there/fansipan/20200620_085210.jpg",
+  "/hat-there/fansipan/20200620_093403.jpg",
+  "/hat-there/fansipan/20200620_093630.jpg",
+  "/hat-there/fansipan/20200620_112139.jpg",
+  "/hat-there/fansipan/20200620_123029.jpg",
+  "/hat-there/fansipan/20200620_124502.jpg",
+  "/hat-there/fansipan/20200620_124936.jpg",
+  "/hat-there/fansipan/20200620_183828.jpg",
 ];
 
 const BATHUOC_IMAGES = [
-  "/hat-there/bathuoc/Bá Thước/20240525_152053.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240525_153325.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240525_155800.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240525_163834.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240525_183005.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240526_092145.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240526_102306.jpg",
-  "/hat-there/bathuoc/Bá Thước/20240526_145433.jpg",
+  "/hat-there/bathuoc/20240525_152053.jpg",
+  "/hat-there/bathuoc/20240525_153325.jpg",
+  "/hat-there/bathuoc/20240525_155800.jpg",
+  "/hat-there/bathuoc/20240525_163834.jpg",
+  "/hat-there/bathuoc/20240525_183005.jpg",
+  "/hat-there/bathuoc/20240526_092145.jpg",
+  "/hat-there/bathuoc/20240526_102306.jpg",
+  "/hat-there/bathuoc/20240526_145433.jpg",
 ];
 
 const BACKAN_IMAGES = [
-  "/hat-there/bac-can/Bắc Kan/IMG_2761.jpeg",
-  "/hat-there/bac-can/Bắc Kan/IMG_4137.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_4562.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_9471.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_9490.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_9499.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_9510.JPG",
-  "/hat-there/bac-can/Bắc Kan/IMG_9839.JPG",
+  "/hat-there/bac-can/IMG_2761.jpeg",
+  "/hat-there/bac-can/IMG_4137.JPG",
+  "/hat-there/bac-can/IMG_4562.JPG",
+  "/hat-there/bac-can/IMG_9471.JPG",
+  "/hat-there/bac-can/IMG_9490.JPG",
+  "/hat-there/bac-can/IMG_9499.JPG",
+  "/hat-there/bac-can/IMG_9510.JPG",
+  "/hat-there/bac-can/IMG_9839.JPG",
 ];
 
 interface StorySectionProps {
