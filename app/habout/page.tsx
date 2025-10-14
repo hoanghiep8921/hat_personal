@@ -41,8 +41,11 @@ function Frame65() {
             src="/habout/IMG_20190808_163948.jpg"
             alt="Personal photo"
             className="w-full h-full object-cover transform transition-transform hover:scale-[1.02]"
-            width={1000}
-            height={1000}
+            width={800}
+            height={800}
+            quality={75}
+            loading="eager"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
       </div>
@@ -76,7 +79,13 @@ function Frame55({ currentSlide }: { currentSlide: number }) {
           <ImageWithFallback 
             src={images[currentSlide]} 
             alt={`Gallery image ${currentSlide + 1}`} 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover"
+            width={800}
+            height={600}
+            loading={currentSlide === 0 ? "eager" : "lazy"}
+            priority={currentSlide === 0}
+            quality={75}
+            sizes="100vw"
           />
         </div>
       </div>
@@ -93,7 +102,12 @@ function Frame55({ currentSlide }: { currentSlide: number }) {
               <ImageWithFallback 
                 src={img} 
                 alt={`Gallery image ${idx + 1}`} 
-                className="aspect-[4/3] object-cover w-full" 
+                className="aspect-[4/3] object-cover w-full"
+                width={800}
+                height={600}
+                loading={idx < 2 ? "eager" : "lazy"}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 20vw"
               />
             </div>
           ))}
@@ -109,7 +123,12 @@ function Frame55({ currentSlide }: { currentSlide: number }) {
               <ImageWithFallback 
                 src={img} 
                 alt={`Gallery image ${idx + 6}`} 
-                className="aspect-[4/3] object-cover w-full" 
+                className="aspect-[4/3] object-cover w-full"
+                width={800}
+                height={600}
+                loading="lazy"
+                quality={75}
+                sizes="(max-width: 768px) 100vw, 25vw"
               />
             </div>
           ))}
@@ -322,7 +341,12 @@ function Frame59() {
           <ImageWithFallback 
             src="/habout/IMG_9769.jpeg" 
             alt="Feminist project" 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover"
+            width={800}
+            height={600}
+            quality={75}
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
       </div>
@@ -383,7 +407,12 @@ function Frame60() {
           <ImageWithFallback 
             src="/habout/IMG_9497.jpeg" 
             alt="Travel exploration" 
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover"
+            width={800}
+            height={600}
+            quality={75}
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>
       </div>
@@ -458,6 +487,11 @@ function Frame61() {
                 src={image}
                 alt={`Achievement ${idx + 1}`}
                 className={`size-auto aspect-square object-contain ${className}`}
+                width={400}
+                height={400}
+                quality={75}
+                loading="lazy"
+                sizes="(max-width: 768px) 50vw, 25vw"
               />
               <div className="text-black text-center text-sm md:text-base">
                 <p className="font-bold">{award}</p>
@@ -495,6 +529,11 @@ function Group1() {
         src="https://images.unsplash.com/photo-1690181307176-95fde5584eed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmbHV0ZSUyMG11c2ljJTIwcGVyZm9ybWFuY2V8ZW58MXx8fHwxNzU5MzI4MjI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
         alt="Flute performance"
         className="size-auto aspect-[16/9] object-cover"
+        width={1000}
+        height={562}
+        quality={75}
+        loading="lazy"
+        sizes="(max-width: 768px) 100vw, 50vw"
       />
     </div>
   );

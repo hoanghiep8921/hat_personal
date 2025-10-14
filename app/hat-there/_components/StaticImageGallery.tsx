@@ -25,11 +25,14 @@ export function StaticImageGallery({ images, altPrefix }: StaticImageGalleryProp
               className="flex-1 transition-all duration-300 rounded-lg overflow-hidden hover:scale-[1.02]"
             >
               <Image 
-                width={1000}
-                height={1000}
+                width={800}
+                height={600}
                 src={img} 
                 alt={`${altPrefix} ${idx + 1}`} 
                 className="aspect-[4/3] object-cover w-full" 
+                loading={idx < 2 ? "eager" : "lazy"}
+                quality={75}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
               />
             </div>
           ))}
@@ -44,11 +47,14 @@ export function StaticImageGallery({ images, altPrefix }: StaticImageGalleryProp
                 className="flex-1 transition-all duration-300 rounded-lg overflow-hidden hover:scale-[1.02]"
               >
                 <Image 
-                  width={1000}
-                  height={1000}
+                  width={800}
+                  height={600}
                   src={img} 
                   alt={`${altPrefix} ${idx + 5}`} 
                   className="aspect-[4/3] object-cover w-full" 
+                  loading="lazy"
+                  quality={75}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 />
               </div>
             ))}
