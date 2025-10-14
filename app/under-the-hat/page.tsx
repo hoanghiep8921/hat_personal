@@ -343,6 +343,89 @@ export default function UnderTheHatPage() {
                 />
               </div>
             </div>
+
+            {/* Editorial Internship Section */}
+            <div id="editorial-internship" className="w-full max-w-[960px] mx-auto flex flex-col">
+              {/* Image Container */}
+              <div className="w-full">
+                <div className="relative aspect-[16/9] overflow-hidden rounded-lg group">
+                  <Image
+                    src="/under-the-hat/document-marketing-strategy-business-concept.jpg"
+                    alt="Editorial Internship at Thời Đại Magazine"
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    quality={75}
+                    loading="lazy"
+                    sizes="(max-width: 768px) 100vw, 960px"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent pt-12 md:pt-24 pb-4 md:pb-8 px-4 md:px-8">
+                    <p className="text-white text-sm md:text-lg lg:text-xl text-left leading-relaxed font-serif" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>
+                      Editorial Internship at Thời Đại Magazine
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Text Content */}
+              <div className="flex flex-col gap-4 text-sm md:text-base text-black text-justify mt-4">
+                <p>
+                  During my two-month internship at Thời Đại Magazine, I worked as part of the editorial team, 
+                  assisting with article writing, research, and content coordination. I learned how to balance 
+                  creativity with accuracy while adapting to the fast-paced workflow of a newsroom.
+                </p>
+                <p>
+                  Through this experience, I strengthened my communication and teamwork skills, developed greater 
+                  confidence in expressing ideas, and gained a deeper appreciation for the role of storytelling 
+                  in connecting people and cultures.
+                </p>
+                <p>
+                  I was honored to receive an "Excellent" evaluation and a Certificate of Achievement upon 
+                  completing the internship.
+                </p>
+              </div>
+
+              {/* Supporting Images/Documents */}
+              <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+                <div className="relative aspect-[3/4] overflow-hidden rounded-lg group">
+                  <Image
+                    src="/under-the-hat/world_page-0001.jpg"
+                    alt="Thời Đại Magazine Certificate"
+                    fill
+                    className="object-contain transition-transform duration-300 group-hover:scale-105 rotate-90"
+                    quality={75}
+                    loading="lazy"
+                    sizes="(max-width: 768px) 100vw, 480px"
+                  />
+                 
+                </div>
+
+                {/* Internship Report - Báo cáo Thực tập Hà Anh.pdf converted */}
+                <div className="relative aspect-[3/4] overflow-hidden rounded-lg group">
+                    <Image
+                      src="/under-the-hat/internship-report1.jpg"
+                      alt="Internship Report"
+                      fill
+                      className="object-contain transition-transform duration-300 group-hover:scale-105"
+                      quality={75}
+                      loading="lazy"
+                      sizes="(max-width: 768px) 100vw, 480px"
+                    />
+                   
+                </div>
+                <div className="relative aspect-[3/4] overflow-hidden rounded-lg group">
+                    <Image
+                      src="/under-the-hat/internship-report2.jpg"
+                      alt="Internship Report"
+                      fill
+                      className="object-contain transition-transform duration-300 group-hover:scale-105"
+                      quality={75}
+                      loading="lazy"
+                      sizes="(max-width: 768px) 100vw, 480px"
+                    />
+                   
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

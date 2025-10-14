@@ -26,14 +26,14 @@ const BATHUOC_IMAGES = [
 ];
 
 const BACKAN_IMAGES = [
-  "/hat-there/bac-can/IMG_2761.jpeg",
-  "/hat-there/bac-can/IMG_4137.JPG",
-  "/hat-there/bac-can/IMG_4562.JPG",
-  "/hat-there/bac-can/IMG_9471.JPG",
-  "/hat-there/bac-can/IMG_9490.JPG",
-  "/hat-there/bac-can/IMG_9499.JPG",
-  "/hat-there/bac-can/IMG_9510.JPG",
-  "/hat-there/bac-can/IMG_9839.JPG",
+  "/hat-there/bac-can/IMG_2761.jpg",
+  "/hat-there/bac-can/IMG_4137.jpg",
+  "/hat-there/bac-can/IMG_4562.jpg",
+  "/hat-there/bac-can/IMG_9471.jpg",
+  "/hat-there/bac-can/IMG_9490.jpg",
+  "/hat-there/bac-can/IMG_9499.jpg",
+  "/hat-there/bac-can/IMG_9510.jpg",
+  "/hat-there/bac-can/IMG_9839.jpg",
 ];
 
 interface StorySectionProps {
