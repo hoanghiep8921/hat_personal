@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-[960px] mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8 md:gap-0 relative z-10">
         <div className="space-y-2 md:space-y-4 text-center md:text-left">
           <h3 className="font-bold text-xl md:text-2xl mb-4 md:mb-6">TRINH HA ANH</h3>
-          <p className="text-base md:text-lg">+84 1234 456 789</p>
+          <p className="text-base md:text-lg">0869954308</p>
           <p className="text-base md:text-lg">hatthere@gmail.com</p>
         </div>
         <div className="text-center md:text-left">
