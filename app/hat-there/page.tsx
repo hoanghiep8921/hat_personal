@@ -93,7 +93,7 @@ export default function App() {
           <AnimatedStorySection title="Bắc Kạn - Weaving Memories" bgColor="bg-[#2e7acf]" galleryType="backan">
             <div className="flex flex-col justify-center relative w-full">
               <p className="leading-relaxed text-lg">
-                I came to Bắc Kạn for the Bride to Business project, where we hosted a talk on financial technology and how child marriage affects women's lives. Serious stuff-but once the project wrapped up, the real joy began: slowing down, exploring, and finding beauty in small moments.
+                I came to Bắc Kạn for the Blessed to Build project, where we hosted a talk on financial technology and how child marriage affects women's lives. Serious stuff-but once the project wrapped up, the real joy began: slowing down, exploring, and finding beauty in small moments.
               </p>
             </div>
             <div className="flex flex-col justify-center relative w-full">

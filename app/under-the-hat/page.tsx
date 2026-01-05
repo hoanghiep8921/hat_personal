@@ -54,7 +54,7 @@ export default function UnderTheHatPage() {
                     </p>
                     <p className="leading-relaxed md:leading-[normal]">
                       <span>{`For me, empowerment has always started with options, and options start with economic independence. That's how finance became my lens for advocacy. When a woman can control her resources, she can control her future. That belief drove me to research, to volunteer, and eventually to create something of my own: `}</span>
-                      <span className="font-bold not-italic">Bride to Business</span>.
+                      <span className="font-bold not-italic">Blessed to Build</span>.
                     </p>
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export default function UnderTheHatPage() {
             <div className="content-stretch flex flex-col font-normal gap-6 md:gap-[28px] items-end leading-relaxed md:leading-[0] not-italic relative shrink-0 text-sm md:text-[18px] text-black w-full max-w-[960px] mx-auto text-justify">
               <div className="flex flex-col justify-center relative shrink-0 w-full">
                 <p className="leading-relaxed md:leading-[normal]">
-                  To me, empowerment begins with choice, and choice begins with economic independence. That’s why finance became my lens for advocacy. When a woman controls her resources, she controls her future. That belief led me to research, volunteer, and eventually create Bride to Business - a name meant to challenge the idea that marriage is a girl’s only path. Instead, it offers another ending: a business, a career, a life built on agency. Our mission is simple but urgent-equip women and children in underserved areas with financial literacy, digital tools, and entrepreneurial skills to break the cycle of child marriage.
+                  To me, empowerment begins with choice, and choice begins with economic independence. That’s why finance became my lens for advocacy. When a woman controls her resources, she controls her future. That belief led me to research, volunteer, and eventually create Blessed to Build - a name meant to challenge the idea that marriage is a girl’s only path. Instead, it offers another ending: a business, a career, a life built on agency. Our mission is simple but urgent-equip women and children in underserved areas with financial literacy, digital tools, and entrepreneurial skills to break the cycle of child marriage.
                 </p>
               </div>
               <div className="flex flex-col justify-center relative shrink-0 w-full">
